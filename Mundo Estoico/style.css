@@ -36,7 +36,7 @@ button {
 }
 
 .navbar .logo i {
-  color: #0aa5ff;
+  color: #541a2e;
   font-size: 22px;
 }
 
@@ -74,11 +74,11 @@ button {
   background-color: transparent;
   color: #999999;
   border-radius: 10px;
-  border: 2px solid #0aa5ff;
+  border: 2px solid #541a2e;
   transition: 0.2s;
 }
 .log-in:hover {
-  background-color: #0aa5ff;
+  background-color: #541a2e;
   color: white;
 }
 
