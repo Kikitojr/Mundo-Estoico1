@@ -9,7 +9,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(../imgs/fundo.png) no-repeat bottom right fixed;
+  background: url(img/fundoestoicismo-removebg-preview.png) no-repeat bottom right fixed;
   background-color: #010101;
   font-family: "Ubuntu", sans-serif;
 }
@@ -29,17 +29,15 @@ button {
 .navbar {
   height: 90px;
   background-color: hsl(0, 0%, 10%);
-  padding: 10px 40px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+.navbar .logo i {
+  color: #541a2e;
+  font-size: 22px;
 }
 
 .navbar .logo a {
@@ -100,12 +98,12 @@ button {
     display: block;
   }
 }
-
-#logo-img {
-  height: 100%;
-  transform: scale(1.3);
+#logo{
+    width: 130px;
+    padding-top: 20px;
 }
-
-#logo-text{
-  margin: 0;
+#namelogo{
+    
+}
+#fundoesto{
 }
