@@ -109,3 +109,25 @@ button {
 #logo-text{
   margin: 0;
 }
+#frase{
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 460px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 7px 10px #541a2e;
+}
+#text{
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 10px;
+  color: white;
+  font-size: 200%;
+  text-align: justify;
+}
+#text2{
+  color: white;
+  margin-left: 400px;
+  margin-right: 20px;
+  margin-top: 70px
+}
