@@ -288,9 +288,8 @@ button:active {
     font-family: 'Poppins', sans-serif;
 }
 
-#card{
 
-}
+
 .container {
   position: relative;
   display: flex;
@@ -365,7 +364,7 @@ button:active {
 .container .card .content h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(#);
+  color: var(--clr);
 }
 
 .container .card .content p {
