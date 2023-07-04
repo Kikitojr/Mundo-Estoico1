@@ -172,6 +172,7 @@ button:active {
 }
 
 .btn-conteiner {
+  width: 50%;
   position: relative;
   margin: 10px;
   left: 80px;
