@@ -70,6 +70,9 @@ button {
 .menu-links a:hover {
   color: white;
 }
+.link-activated {
+  color: white !important;
+}
 .log-in {
   font-weight: 500;
   padding: 12px 22px;
