@@ -103,13 +103,6 @@ button {
     display: block;
   }
 }
-#clipboardCopy{
-  position: relative;
-  background: #262626;
-  left: 675px;
-  top: 20px;
-  width: 0px;
-  z-index: 0;
 
 #logo-img {
   height: 100%;
