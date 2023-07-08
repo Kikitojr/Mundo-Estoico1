@@ -103,6 +103,13 @@ button {
     display: block;
   }
 }
+#clipboardCopy{
+  position: relative;
+  background: #262626;
+  left: 675px;
+  top: 20px;
+  width: 0px;
+  z-index: 0;
 
 #logo-img {
   height: 100%;
@@ -135,12 +142,12 @@ button {
   text-align: justify;
 }
 #autor{
-
   color: #190019;
   position: relative;
   left: 430px;
-  bottom: 10px;
+  bottom: 15px;
   position: fixed;
+  z-index: 1;
 }
 /* Fim Ids*/
 /*Inicio Botao Somos*/
