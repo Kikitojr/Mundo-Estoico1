@@ -103,6 +103,13 @@ button {
     display: block;
   }
 }
+#favorite{
+  background: #262626;
+  position: relative;
+  left: 672px;
+  top: 90px;
+  width: 0px;
+}
 #clipboardCopy{
   position: relative;
   background: #262626;
