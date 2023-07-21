@@ -9,7 +9,29 @@ clipboardButton.addEventListener("click", function() {
     console.error("Erro ao copiar texto: ", err);
   });
 });
-// Fim funcao copy
+
+//---------------- Início Popup ----------------//
+
+// Elementos
+const popup = document.getElementById('alerta');
+const closed = document.getElementById('close');
+
+// Eventos do popup
+clipboardButton.addEventListener('click', ativarPopup);
+closed.addEventListener('click', desativarPopup);
+popup.addEventListener('click', desativarPopup);
+
+// Funções
+function ativarPopup() {
+  popup.classList.remove('alerta-disabled');
+  popup.classList.add('alerta');
+}
+function desativarPopup() {
+  popup.classList.remove('alerta');
+  popup.classList.add('alerta-disabled')
+}
+
+//---------------- Fim Popup ----------------//
 
 // Texts
 const frase = document.getElementById('frase-dentro');

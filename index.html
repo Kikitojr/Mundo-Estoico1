@@ -7,6 +7,7 @@
     <title>Mundo Estoico</title>
     <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/popup.css">
 </head>
 
 <body>
@@ -74,7 +75,7 @@
         <h1>- Filósofos</h1>
     </div>
 
-    <body id="card">
+    <div id="card">
         <div class="container">
             <div class="card" style="--clr: #FF3E7F">
                 <div class="img-box">
@@ -142,10 +143,24 @@
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+
+    <!-- Toast de mensagem copiada -->
+    <div class="alerta-disabled" id="alerta">
+        <div class="alerta-content">
+            <div class="alerta-header">
+                <h2>Mensagem Copiada</h2>
+                <span class="close" id="close">&times;</span>
+            </div>
+            <div class="alerta-body">
+                <p>A mensagem foi copiada com sucesso!</p>
+            </div>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="./js/frases.js"></script>
+    <script src="./js/popup.js"></script>
 </body>
 
 </html>
