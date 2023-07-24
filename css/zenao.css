@@ -109,13 +109,13 @@ button {
 
 /* FIMNavBar*/
 body{
-  background: url(./imgs/fundestoico.jpg);
+  background: url(../imgs/fundestoico.jpg); /*Agora vaiii*/
   background-size: 100%;
 }
 #zenao {
   border: 1px solid black;
   padding-bottom: 50px;  
-  background: url(./imgs/citio-chipre2.jpg) top no-repeat;
+  background: url(../imgs/citio-chipre2.jpg) top no-repeat;
   background-size: 100%;
   height: 600px;
 }
