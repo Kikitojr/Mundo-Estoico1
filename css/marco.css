@@ -9,7 +9,7 @@ body{
   #marco {
     border: 1px solid black;
     padding-bottom: 50px;  
-    background: url(imgs/roma-italia.jpg) no-repeat left;
+    background: url(../imgs/roma-italia.jpg) no-repeat left;
     background-size: 100%;
     height: 600px;
   }
