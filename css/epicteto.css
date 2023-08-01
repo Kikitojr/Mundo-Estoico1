@@ -1,0 +1,358 @@
+
+/* FIMNavBar*/
+
+/* FIMNavBar*/
+body{
+    background: #252524;
+    background-size: 100%;
+  }
+  #epicteto{
+    border: 1px solid black;
+    padding-bottom: 50px;  
+    background: url(imgs/epictetos-city.jpg) no-repeat top;
+    background-size: 100%;
+    height: 600px;
+  }
+  
+  #epicteto-img {
+    position: relative;
+    bottom: 830px;
+      margin-left: 100px;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+  }
+  
+  #text-container {
+    position: relative;
+    margin-top: 70px; /* Ajuste a distância vertical do container em relação à imagem */
+    margin-left: 100px; /* Ajuste a distância horizontal do container em relação à imagem */
+  }
+  
+  #intitulado {
+    position: relative;
+    top: 10px;
+    left: 250px;
+    font-size: 24px;
+    margin-top: 140px;
+    color: #fff;
+  }
+  
+  #frase {
+    position: relative;
+    bottom: 165px;
+    left: 20px;
+    right: 10px;
+    font-size: 40px;
+    margin-top: 240px;
+    margin-left: 590px;
+    margin-right: 10px;
+  }
+  
+  #frase2 {
+    position: relative;
+    bottom: 440px;
+    font-size: 32px;
+    margin-top: 320px;
+    margin-left: 530px;
+  }
+  
+  #aspas1 {
+    position: absolute;
+    top: 248px; /* Ajuste a posição vertical das aspas em relação ao container */
+    left: 630px; /* Ajuste a posição horizontal das aspas em relação ao container */
+  }
+  
+  #aspas2 {
+    color: #541a2e;
+    position: absolute;
+    top: 355px; /* Ajuste a posição vertical das aspas em relação ao container */
+    right: 415px; /* Ajuste a posição horizontal das aspas em relação ao container */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  .titulo{
+    color: #ffffff;
+    position: relative;
+    left: 70px;
+    margin-bottom: 0px;
+  }
+  /*AREA CARD*/
+  .epicteto-bio{
+    width: 10.2em;
+    height: 10.2em;
+    background: white;
+    border-radius: 15px; 
+    margin-left: -0.1em;
+  }
+  p{
+    color: #FFF;
+  }
+  .card {
+    width: 1150px;
+    height: 56em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    display: block;
+    font-size: 2.5em;
+    position: relative;
+    bottom: 90px;
+    left: 390px;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    margin: 1em;
+  }
+  
+  .card .img {
+    width: 10em;
+    height: 10em;
+    background: white;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: #541a2e;
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: #541a2e;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /*CARDS LIVROS*/
+  /* before adding the img to the div with the 
+  "card-img" class, remove css styles 
+  .card-img .img::before and .card-img .img::after,
+  then set the desired styles for .card-img. */
+  .card2 {
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #fff;
+    --main-color: #323232;
+    --main-focus: #2d8cf0;
+    width: 230px;
+    height: 300px;
+    background: var(--bg-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 10px;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+    margin: 20px;
+  }
+  
+  .card2:last-child {
+    justify-content: flex-end;
+  }
+  
+  .img2{
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    align-items: center;  
+  }
+  
+  .card-title2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--font-color);
+  }
+  
+  #guia-para-uma-vida{
+    margin-bottom: -10px;
+  }
+  
+  .card-subtitle2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--font-color-sub);
+  }
+  
+  #manual-epicteto{
+    padding-bottom: 25px;
+  }
+  
+  .card-divider2 {
+    width: 100%;
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+  }
+  
+  .card-footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-price2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--font-color);
+  }
+  
+  .card-price2 span {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--font-color-sub);
+  }
+  
+  .card-btn2 {
+    height: 35px;
+    background: var(--bg-color);
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    padding: 0 15px;
+    transition: all 0.3s;
+  }
+  
+  .card-btn2 svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--main-color);
+    transition: all 0.3s;
+  }
+  
+  .card-img2:hover {
+    transform: translateY(-3px);
+  }
+  
+  .card-btn2:hover {
+    border: 2px solid var(--main-focus);
+  }
+  
+  .card-btn2:hover svg {
+    fill: var(--main-focus);
+  }
+  
+  .card-btn2:active {
+    transform: translateY(3px);
+  }
+  
+  
+  /*Observacao*/
+  .card3 {
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    background: #353535;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: 0.5s ease-in-out;
+    position: relative;
+    left: 50px;
+    top: 75px;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+  .img3 {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#d7cfcf, #9198e5);
+  }
+  .img4 {
+    width: 53px;
+    height: 50px;
+    margin-left: -1px;
+    border-radius: 10px;
+    background: linear-gradient(#d7cfcf, #9198e5);
+  }
+  
+  .card3:hover > .img3 {
+    transition: 0.5s ease-in-out;
+    background: linear-gradient(#9198e5, #712020);
+  }
+  
+  .textBox3 {
+    width: calc(100% - 90px);
+    margin-left: 10px;
+    color: white;
+    font-family: 'Poppins' sans-serif;
+  }
+  
+  .textContent3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .span3 {
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  
+  .h13 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .p3 {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  
+  
+  
