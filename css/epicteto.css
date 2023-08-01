@@ -9,7 +9,7 @@ body{
   #epicteto{
     border: 1px solid black;
     padding-bottom: 50px;  
-    background: url(imgs/epictetos-city.jpg) no-repeat top;
+    background: url(../imgs/epictetos-city.jpg) no-repeat top;
     background-size: 100%;
     height: 600px;
   }
